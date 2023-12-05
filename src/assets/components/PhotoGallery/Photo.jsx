@@ -17,6 +17,7 @@ const Photo = () => {
           key={index}
           src={item.image}
           className="border shadow-md rounded-md"
+          data-aos="zoom-in"
         />
       ))}
     </>

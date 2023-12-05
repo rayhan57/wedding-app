@@ -4,7 +4,10 @@ import bridal from "../../img/bridal.jpg";
 
 const Groom = ({ name, description, image }) => {
   return (
-    <div className="border rounded-md max-w-xs lg:max-w-sm shadow-md flex justify-center items-center">
+    <div
+      className="border rounded-md max-w-xs lg:max-w-sm shadow-md flex justify-center items-center"
+      data-aos="fade-down-right"
+    >
       <div className="w-[60%] text-end px-2">
         <h2 className="text-xl lg:text-2xl font-bold -mb-2">{name}</h2>
         <span className="text-xs lg:text-sm">Groom</span>
@@ -25,7 +28,10 @@ const Groom = ({ name, description, image }) => {
 
 const Bridal = ({ name, description, image }) => {
   return (
-    <div className="border rounded-md max-w-xs lg:max-w-sm shadow-md flex justify-center items-center">
+    <div
+      className="border rounded-md max-w-xs lg:max-w-sm shadow-md flex justify-center items-center"
+      data-aos="fade-down-left"
+    >
       <div className="w-1/2 h-full">
         <img
           src={image}
