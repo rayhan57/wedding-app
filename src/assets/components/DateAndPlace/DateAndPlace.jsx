@@ -10,10 +10,10 @@ const DateAndPlace = () => {
   const receptionTime = ["11", "00"];
 
   return (
-    <div className="mx-auto mt-10 lg:mt-16 relative">
+    <div className="container mx-auto mt-10 lg:mt-16 relative">
       <img
         src={married}
-        className="-z-10 w-48 md:w-72 lg:w-[24rem] absolute bottom-10 -right-12 lg:top-0 lg:-right-20 grayscale"
+        className="-z-10 w-48 md:w-72 lg:w-[24rem] absolute bottom-10 -right-12  md:top-0 md:-right-36 lg:-right-32 grayscale"
       />
 
       <h2

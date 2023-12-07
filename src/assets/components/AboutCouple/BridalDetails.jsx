@@ -52,7 +52,7 @@ const Bridal = ({ name, description, image }) => {
 
 const BridalDetails = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-center gap-2 lg:gap-4 mt-7 lg:mt-10">
+    <div className="flex flex-col md:flex-row justify-center items-center gap-2 lg:gap-4 mt-7 lg:mt-10">
       <Groom
         name="Beckham"
         description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore fugit,
